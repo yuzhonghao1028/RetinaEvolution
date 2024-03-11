@@ -1422,7 +1422,6 @@ ggdraw() +
   draw_plot(RGC_p, x=0, y= bottom_gap - dendro_gap, width = .08, height = length(RGC_levels)*spacing + 2*dendro_gap) + 
   draw_plot(BC_p, x=0, y=bottom_gap + length(RGC_levels)*spacing - dendro_gap, width = .08, height = length(BC_levels)*spacing + 2*dendro_gap) 
 dev.off()
-
 ```
 
 
